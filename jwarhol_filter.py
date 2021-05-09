@@ -47,8 +47,8 @@ def main():
             # Place all six patches on the final image.
             for y in range(PATCH_SIZE):
                 for x in range(PATCH_SIZE):
-                    pixel = patch.get_pixel(x,y)
-                    final_image.set_pixel(x+PATCH_SIZE*col, y+PATCH_SIZE*row, pixel)
+                    pixel = patch.get_pixel(x, y)
+                    final_image.set_pixel(x + PATCH_SIZE * col, y + PATCH_SIZE * row, pixel)
 
     final_image.show()
 
